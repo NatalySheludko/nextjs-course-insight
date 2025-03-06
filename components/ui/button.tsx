@@ -10,14 +10,16 @@ const buttonVariants = cva(
         variants: {
             variant: {
                 primary:
-                    'bg-white text-(--frame) border-none rounded-[40px] px-[32px] py-[16px] w-[232px] h-[54px]',
-                filled: 'bg-(--darkGray) text-white rounded-[28px] px-[16px] py-[6px]',
+                    'font-semibold text-lg leading-[1.2] bg-white text-(--frame) border-none rounded-[40px] px-[32px] py-[16px] w-[232px] h-[54px] cursor-pointer',
+                filled: 'bg-(--darkGray) text-white rounded-[28px] px-[16px] py-[6px] cursor-pointer',
                 outlined:
-                    'border border-(--frame) w-auto text-(--frame) rounded-[28px] px-[16px] py-[6px] bg-transparent',
-                wide: 'bg-(--white) text-(--frame) border-none rounded-[40px] pr-[118px] pl-[32px] py-[8px] w-[468px] h-[46px]',
-                ghost: 'border border-white text-(--white) rounded-[20px] px-[16px] py-[8px] h-[33px]',
-                // largeOutlined:
-                //     'border-[1px] border-[var(--frame)] text-[var(--frame)] rounded-[40px] px-[111px] py-[12px] w-[291px] h-[46px] bg-transparent',
+                    'font-medium text-xs border border-(--darkGray) w-auto text-(--darkGray) rounded-[28px] px-[16px] py-[6px] bg-transparent cursor-pointer',
+                outline:
+                    'font-medium text-lg border border-(--frame) w-auto text-(--frame) rounded-[28px] px-[16px] py-[6px] bg-transparent cursor-pointer',
+                wide: 'font-medium text-[20px] leading-[1.2] bg-(--white) text-(--frame) border-none rounded-[40px] pr-[118px] pl-[32px] py-[8px] w-[468px] h-[46px] cursor-pointer',
+                ghost: 'font-medium text-sm leading-[1.2] border border-white text-(--white) rounded-[20px] px-[16px] py-[8px] h-[33px] cursor-pointer',
+                largeOutlined:
+                    'font-medium text-lg leading-[1.2] border border-(--frame) text-(--frame) rounded-[40px] px-[111px] py-[12px] w-[291px] h-[46px] bg-transparent cursor-pointer',
                 // largeFilled:
                 //     'border-[1px] border-[var(--frame)] text-[var(--frame)] rounded-[40px] px-[111px] py-[12px] w-[291px] h-[46px] bg-[#b4b4b4]',
                 // extraLarge:
