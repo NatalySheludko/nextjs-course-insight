@@ -1,21 +1,26 @@
 import { Button } from '@/components/ui/button';
 import cn from 'classnames';
+import Image from 'next/image';
+
+import Brain from '../public/heroImages/brain.png';
+import Circle from '../public/heroImages/circle.png';
+import Avatar from '../public/heroImages/avatar.png';
 
 export const HeroSection = () => {
     return (
-        <div className={cn('hero bg-cover bg-no-repeat bg-center')}>
-            <div className="absolute top-[110px] right-[15%] z-30">
-                <img src="/heroImages/brain.png" alt="Brain" width={494} height={494} />
+        <section className={cn('hero relative top-[-44px] bg-cover bg-no-repeat bg-center')}>
+            <div className="absolute top-[110px] right-[8%] z-30">
+                <Image src={Brain} alt="Brain" width={494} height={494} />
             </div>
 
-            <div className="absolute top-[110px] right-[25%]">
-                <img src="/heroImages/circle.png" alt="Circle" width={423} height={450} />
+            <div className="absolute top-[110px] right-[20%]">
+                <Image src={Circle} alt="Circle" width={423} height={450} />
             </div>
 
-            <div className="absolute bottom-[203px] right-[30%] z-40">
-                <img src="/heroImages/avatar.png" alt="Avatar" width={168} height={48} />
+            <div className="absolute bottom-[144px] right-[27%] z-40">
+                <Image src={Avatar} alt="Avatar" width={168} height={48} />
             </div>
-            <p className="absolute bottom-[203px] right-[15%] z-40 leading-[1.2] text-[16px] font-normal text-(--mainText) w-[205px]">
+            <p className="absolute bottom-[143px] right-[8%] z-40 leading-[1.2] text-[16px] font-normal text-(--mainText) w-[205px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit!
             </p>
 
@@ -30,6 +35,6 @@ export const HeroSection = () => {
                 </p>
                 <Button variant="primary">Зарегистрироваться</Button>
             </div>
-        </div>
+        </section>
     );
 };

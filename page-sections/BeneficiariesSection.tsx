@@ -3,7 +3,7 @@ import cn from 'classnames';
 export const BeneficiariesSection = () => {
     return (
         <section className={cn('container')}>
-            <div className="pt-[200px] pb-[100px]">
+            <div className="pt-[156px] pb-[100px]">
                 <h2 className="font-bold text-[40px] mb-[40px] text-(--frame) leading-[1.2]">
                     Кому буде корисний курс
                 </h2>

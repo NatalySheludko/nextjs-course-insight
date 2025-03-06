@@ -8,9 +8,10 @@ import { useState } from 'react';
 
 import ArrowRight from '../public/icons/oui_arrow-right-1.svg';
 import ArrowLeft from '../public/icons/oui_arrow-right.svg';
-import { paragraphs, buttonLabels, images } from '@/lib/expertSectionUtils';
+import { paragraphs, buttonLabels } from '@/lib/expertSectionUtils';
+import { images } from '@/lib/studentCasesUtils';
 
-export const ExpertCommunitySection = () => {
+export const StudentCasesSection = () => {
     const [activeButton, setActiveButton] = useState<string>(buttonLabels[0]);
     const [activeParagraph, setActiveParagraph] = useState<string>(
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima reiciendis nobis dolore obcaecati.'
@@ -35,7 +36,7 @@ export const ExpertCommunitySection = () => {
         <section className={cn('container')}>
             <div className="section">
                 <h2 className="font-bold text-[40px] mb-[40px] text-(--frame) leading-[1.2]">
-                    Спікери курсу
+                    Кейси учнів
                 </h2>
 
                 <div className="flex gap-[40px] bg-(--backgroundLight) rounded-[40px] p-[49px_40px_51px_50px]">
@@ -80,7 +81,7 @@ export const ExpertCommunitySection = () => {
                                 ))}
                             </div>
 
-                            <div className="flex gap-[12px] justify-center px-[94.5px] mb-[58px]">
+                            <div className="flex gap-[12px] justify-center px-[94.5px] mb-[57px]">
                                 {buttonLabels.slice(3).map((label, index) => (
                                     <Button
                                         variant="outlined"

@@ -17,7 +17,7 @@ export const Header = () => {
     };
 
     return (
-        <header className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full max-w-screen-lg">
+        <header className="relative top-0 left-1/2 transform -translate-x-1/2 w-full max-w-screen-lg z-50">
             <div className="flex items-center justify-center">
                 <Link href="/" className="flex items-center" prefetch={false}>
                     <Image

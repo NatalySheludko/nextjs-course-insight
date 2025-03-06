@@ -15,7 +15,7 @@ const buttonVariants = cva(
                 outlined:
                     'border border-(--frame) w-auto text-(--frame) rounded-[28px] px-[16px] py-[6px] bg-transparent',
                 wide: 'bg-(--white) text-(--frame) border-none rounded-[40px] pr-[118px] pl-[32px] py-[8px] w-[468px] h-[46px]',
-                ghost: 'border-[1px] border-white text-white rounded-[20px] px-[16px] py-[8px] h-[33px]',
+                ghost: 'border border-white text-(--white) rounded-[20px] px-[16px] py-[8px] h-[33px]',
                 largeOutlined:
                     'border-[1px] border-[var(--frame)] text-[var(--frame)] rounded-[40px] px-[111px] py-[12px] w-[291px] h-[46px] bg-transparent',
                 largeFilled:
