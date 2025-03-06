@@ -14,7 +14,7 @@ export const CareerCenterSection = () => {
     return (
         <section className={cn('container')}>
             <div className="section">
-                <h2 className="font-bold text-[40px] mb-[40px] text-(--frame) leading-[1.2]">
+                <h2 className="font-bold text-[40px] mb-[40px] text-(--frame) leading-[1.4]">
                     Центр кар'єри
                 </h2>
 

@@ -11,17 +11,17 @@ const buttonVariants = cva(
             variant: {
                 primary:
                     'bg-white text-(--frame) border-none rounded-[40px] px-[32px] py-[16px] w-[232px] h-[54px]',
-                // filled: 'border border-(--frame) bg-(--frame) text-white rounded-[28px] px-[16px] py-[6px]',
+                filled: 'bg-(--darkGray) text-white rounded-[28px] px-[16px] py-[6px]',
                 outlined:
                     'border border-(--frame) w-auto text-(--frame) rounded-[28px] px-[16px] py-[6px] bg-transparent',
                 wide: 'bg-(--white) text-(--frame) border-none rounded-[40px] pr-[118px] pl-[32px] py-[8px] w-[468px] h-[46px]',
                 ghost: 'border border-white text-(--white) rounded-[20px] px-[16px] py-[8px] h-[33px]',
-                largeOutlined:
-                    'border-[1px] border-[var(--frame)] text-[var(--frame)] rounded-[40px] px-[111px] py-[12px] w-[291px] h-[46px] bg-transparent',
-                largeFilled:
-                    'border-[1px] border-[var(--frame)] text-[var(--frame)] rounded-[40px] px-[111px] py-[12px] w-[291px] h-[46px] bg-[#b4b4b4]',
-                extraLarge:
-                    'bg-[var(--frame)] text-white rounded-[40px] px-[99px] py-[16px] w-[415px] h-[52px] border-none',
+                // largeOutlined:
+                //     'border-[1px] border-[var(--frame)] text-[var(--frame)] rounded-[40px] px-[111px] py-[12px] w-[291px] h-[46px] bg-transparent',
+                // largeFilled:
+                //     'border-[1px] border-[var(--frame)] text-[var(--frame)] rounded-[40px] px-[111px] py-[12px] w-[291px] h-[46px] bg-[#b4b4b4]',
+                // extraLarge:
+                //     'bg-[var(--frame)] text-white rounded-[40px] px-[99px] py-[16px] w-[415px] h-[52px] border-none',
             },
         },
         defaultVariants: {
