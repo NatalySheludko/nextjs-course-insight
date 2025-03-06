@@ -55,7 +55,7 @@ export const PaginationSection = ({
                             width={16}
                             height={17}
                             src={ArrowLeft}
-                            alt="ArrowLeft"
+                            alt="Arrow Left"
                             style={{ filter: 'brightness(0) invert(1)' }}
                         />
                     </button>
@@ -70,7 +70,7 @@ export const PaginationSection = ({
                             width={16}
                             height={17}
                             src={ArrowRight}
-                            alt="ArrowRight"
+                            alt="Arrow Right"
                             style={{ filter: 'brightness(0) invert(1)' }}
                         />
                     </button>

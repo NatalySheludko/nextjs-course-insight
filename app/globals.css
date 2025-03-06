@@ -19,6 +19,7 @@
     --lightBlue: #74b7fe;
     --veryLightGray: #f3f3f6;
     --lighterGray: #e3e3e3;
+		--gray: #636363;
     --coolGray: #767678;
     --backgroundSecondary: #1a1a1a;
     --backgroundTertiary: #0a0a0a;
@@ -29,6 +30,7 @@
     --semiTransparentGray: rgba(139, 139, 139, 0.4);
     --lightSilver: #c9c9c9;
     --silver: #919191;
+    --silvered: #969696;
     --offWhite: #e9e9e9;
     --yellow: #ffd400;
     --violet: #c07ff2;
