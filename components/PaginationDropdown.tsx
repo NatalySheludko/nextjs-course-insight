@@ -122,7 +122,7 @@ export const PaginationSection = ({
 
                     <DecorativeElement />
 
-                    <Button onClick={toggleExpand} variant="outlined" className="mb-[28px] w-full">
+                    <Button onClick={toggleExpand} variant="outlined" className="mb-[28px] w-full cursor-pointer">
                         Згорнути
                     </Button>
                 </div>
