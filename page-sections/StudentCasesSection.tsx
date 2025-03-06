@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 import ArrowRight from '../public/icons/oui_arrow-right-1.svg';
 import ArrowLeft from '../public/icons/oui_arrow-right.svg';
-import { paragraphs, buttonLabels } from '@/lib/expertSectionUtils';
+import { paragraphs, buttonLabels } from '@/lib/spikersUtils';
 import { images } from '@/lib/studentCasesUtils';
 
 export const StudentCasesSection = () => {

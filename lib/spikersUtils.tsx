@@ -1,6 +1,6 @@
-import Art from '../public/expertsCommunity/art-illustration.png';
-import Woman from '../public/expertsCommunity/beautifull-woman.png';
-import Business from '../public/expertsCommunity/business-woman.png';
+import Art from '../public/courseSpikers/art-illustration.png';
+import Woman from '../public/courseSpikers/beautifull-woman.png';
+import Business from '../public/courseSpikers/business-woman.png';
 
 export const images = [
     { src: Art, alt: 'Art Illustration' },

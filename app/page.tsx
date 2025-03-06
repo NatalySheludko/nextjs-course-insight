@@ -2,6 +2,7 @@ import { BeneficiariesSection } from '@/page-sections/BeneficiariesSection';
 import { CareerCenterSection } from '@/page-sections/CareerCenterSection';
 import { CourseFormatSection } from '@/page-sections/CourseFormatSection';
 import { CourseProgramSection } from '@/page-sections/CourseProgramSection';
+import { CourseSpikersSection } from '@/page-sections/CourseSpikersSection';
 import { ExpertCommunitySection } from '@/page-sections/ExpertCommunitySection';
 import { HeroSection } from '@/page-sections/HeroSection';
 import { StudentCasesSection } from '@/page-sections/StudentCasesSection';
@@ -11,11 +12,12 @@ export default function Home() {
         <main>
             <HeroSection />
             <BeneficiariesSection />
-            <ExpertCommunitySection />
+            <CourseSpikersSection />
             <CourseFormatSection />
             <StudentCasesSection />
             <CareerCenterSection />
             <CourseProgramSection />
+            <ExpertCommunitySection />
         </main>
     );
 }
