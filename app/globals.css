@@ -3,7 +3,7 @@
 @theme {
     --frame: #000;
     --mainText: #b2b2b2;
-		--border: #b5b5b5;
+    --border: #b5b5b5;
     --text: #585454;
     --white: #fff;
     --lightGray: #c8c8c8;
@@ -19,7 +19,7 @@
     --lightBlue: #74b7fe;
     --veryLightGray: #f3f3f6;
     --lighterGray: #e3e3e3;
-		--gray: #636363;
+    --gray: #636363;
     --coolGray: #767678;
     --backgroundSecondary: #1a1a1a;
     --backgroundTertiary: #0a0a0a;
