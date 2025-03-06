@@ -50,13 +50,16 @@ export const ExpertCommunitySection = () => {
                     />
 
                     <div>
-                        <div className="w-[594px] mt-[24px] border-[1.5px] border-solid rounded-[16px] p-[71px_29px] backdrop-blur-[44px] bg-(--backgroundLightAlt) mb-[58px]">
-                            <h3 className="text-[28px] leading-[1.2] font-extrabold text-(--frame) mb-[12px]">
-                                {activeButton}
-                            </h3>
-                            <p className="text-lg leading-[1.2] text-(--text) font-normal">
-                                {activeParagraph}
-                            </p>
+                        <div className="relative">
+                            <div className="absolute inset-[-4px] border-[10px] border-(--frame) rounded-[20px] pointer-events-none translate-y-[18px] translate-x-[-4px]  h-[227px] w-[610px]"></div>
+                            <div className="w-[594px] mt-[24px] border-[1.5px] border-solid rounded-[16px] p-[71px_29px] backdrop-blur-[44px] bg-(--backgroundLightAlt) mb-[58px] ">
+                                <h3 className="text-[28px] leading-[1.2] font-extrabold text-(--frame) mb-[12px]">
+                                    {activeButton}
+                                </h3>
+                                <p className="text-lg leading-[1.2] text-(--text) font-normal">
+                                    {activeParagraph}
+                                </p>
+                            </div>
                         </div>
 
                         <div className="m-auto w-[542px] mb-[58px]">

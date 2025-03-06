@@ -1,5 +1,6 @@
 
 import { BeneficiariesSection } from '@/page-sections/BeneficiariesSection';
+import { CourseFormatSection } from '@/page-sections/CourseFormatSection';
 import { ExpertCommunitySection } from '@/page-sections/ExpertCommunitySection';
 import { HeroSection } from '@/page-sections/HeroSection';
 
@@ -8,7 +9,8 @@ export default function Home() {
         <main className="">
 				<HeroSection />
 				<BeneficiariesSection />
-				<ExpertCommunitySection/>
+				<ExpertCommunitySection />
+				<CourseFormatSection/>
         </main>
     );
 }
