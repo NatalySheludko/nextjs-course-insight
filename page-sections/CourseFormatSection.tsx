@@ -40,7 +40,7 @@ export const CourseFormatSection = () => {
                             priority
                             className="rounded-[16px] border border-(--white) mb-[20.7px]"
                         />
-                        <Button variant="wide" className="cursor-pointer">
+                        <Button variant="wide">
                             <Image
                                 width={23}
                                 height={21}

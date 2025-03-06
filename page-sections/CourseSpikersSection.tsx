@@ -66,7 +66,7 @@ export const CourseSpikersSection = () => {
                             <div className="flex gap-[12px] justify-center px-[80px] mb-[12px]">
                                 {buttonLabels.slice(0, 3).map((label, index) => (
                                     <Button
-                                        variant="outlined"
+                                        variant="outline"
                                         key={index}
                                         className={
                                             activeButton === label
@@ -83,7 +83,7 @@ export const CourseSpikersSection = () => {
                             <div className="flex gap-[12px] justify-center px-[94.5px] mb-[58px]">
                                 {buttonLabels.slice(3).map((label, index) => (
                                     <Button
-                                        variant="outlined"
+                                        variant="outline"
                                         key={index}
                                         className={
                                             activeButton === label

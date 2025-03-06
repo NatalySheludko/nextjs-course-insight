@@ -25,7 +25,7 @@ export const PaginationSection = ({
     const toggleExpand = () => setIsExpanded(prev => !prev);
 
     return (
-        <div className="relative mb-[36px] ">
+        <div className="relative mb-[36px] z-50">
             <p className="flex justify-center items-center m-auto font-medium text-lg leading-[1.2] text-(--darkGray) border rounded-[28px] bg-(--backgroundLightAlt) border-(--darkGray) w-[466px] h-[30px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit
             </p>

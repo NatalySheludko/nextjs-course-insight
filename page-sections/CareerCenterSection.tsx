@@ -39,18 +39,10 @@ export const CareerCenterSection = () => {
                         vel.
                     </p>
                     <div className="flex gap-[4px]">
-                        <Button
-                            variant="ghost"
-                            className="cursor-pointer"
-                            onClick={() => setActiveImages(images.default)}
-                        >
+                        <Button variant="ghost" onClick={() => setActiveImages(images.default)}>
                             Востребованные профессии
                         </Button>
-                        <Button
-                            variant="ghost"
-                            className="cursor-pointer"
-                            onClick={() => setActiveImages(images.business)}
-                        >
+                        <Button variant="ghost" onClick={() => setActiveImages(images.business)}>
                             Практика на реальных задачах
                         </Button>
                     </div>
