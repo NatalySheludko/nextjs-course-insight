@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <main>
             <HeroSection />
-            <BeneficiariesSection />
+            {/* <BeneficiariesSection />
             <CourseSpikersSection />
             <CourseFormatSection />
             <StudentCasesSection />
@@ -23,7 +23,7 @@ export default function Home() {
             <ExpertCommunitySection />
             <PricingSection />
             <ReviewsSection />
-            <FormSection />
+            <FormSection /> */}
         </main>
     );
 }

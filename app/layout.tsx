@@ -83,7 +83,7 @@ export default function RootLayout({
             <body className={cn(jost.variable, 'antialiased')}>
                 <Header />
                 {children}
-                <Footer />
+                {/* <Footer /> */}
             </body>
         </html>
     );
