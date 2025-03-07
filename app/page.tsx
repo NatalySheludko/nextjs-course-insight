@@ -18,8 +18,8 @@ export default function Home() {
             <CourseSpikersSection />
             <CourseFormatSection />
             <StudentCasesSection />
-            {/*<CareerCenterSection />
-            <CourseProgramSection />
+            <CareerCenterSection />
+           {/* <CourseProgramSection />
             <ExpertCommunitySection />
             <PricingSection />
             <ReviewsSection />

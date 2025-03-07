@@ -6,23 +6,20 @@ export const images = {
     default: [
         {
             src: Default.src,
-            width: 570,
-            height: 390,
-            className: 'absolute top-[1%] right-[0%]',
+            className:
+                'absolute w-[223px] h-[173px] xl:w-[540px] xl:h-[390px] top-[25%] xl:top-[2%] right-[20%] xl:right-[0%]',
         },
     ],
     business: [
         {
             src: Business.src,
-            width: 550,
-            height: 370,
-            className: 'absolute bottom-[-1%] right-[0%] z-10',
+            className:
+                'absolute w-[250px] h-[173px] xl:w-[530px] xl:h-[360px] bottom-[25%] left-[15%] rounded-[8px] xl:rounded-0 xl:bottom-[-1%] xl:left-[50%] z-10',
         },
         {
             src: Ellipse.src,
-            width: 550,
-            height: 350,
-            className: 'absolute bottom-[5%] right-[5%]',
+            className:
+                'absolute w-[223px] h-[183px] xl:w-[550px] xl:h-[350px] bottom-[25%] xl:bottom-[5%] right-[15%] xl:right-[5%]',
         },
     ],
 };

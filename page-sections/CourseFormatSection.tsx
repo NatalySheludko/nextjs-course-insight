@@ -36,7 +36,7 @@ export const CourseFormatSection = () => {
                             alt={images[currentSlide].alt}
                             quality={100}
                             priority
-                            className="rounded-[20px] xl:rounded-[16px] border border-(--white) mb-[16px] xl:mb-[20.7px] w-[278px] h-[174px] xl:w-[340px] xl:h-[481px] object-cover"
+                            className="rounded-[20px] xl:rounded-[16px] border border-(--white) mb-[16px] xl:mb-[20.7px] object-cover"
                         />
                         <Button variant="wide">
                             <Image
