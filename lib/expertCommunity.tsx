@@ -6,23 +6,20 @@ export const images = {
     default: [
         {
             src: Boy.src,
-            width: 616,
-            height: 544,
-            className: 'absolute bottom-[-1%] right-[-3%]',
+            className:
+                'absolute bottom-[15%] right-[11%] xl:bottom-[-1%] xl:right-[-3%] h-[241px] xl:w-[616px] xl:h-[544px] w-[281px]',
         },
     ],
     business: [
         {
             src: Laptop.src,
-            width: 337,
-            height: 285,
-            className: 'absolute bottom-[15%] right-[7%] z-10',
+            className:
+                'absolute bottom-[23%] right-[25%] xl:bottom-[15%] xl:right-[7%] z-10 h-[152px] xl:w-[337px] xl:h-[285px] w-[180px]',
         },
         {
             src: Circle.src,
-            width: 530,
-            height: 480,
-            className: 'absolute bottom-[-3%] right-[0%]',
+            className:
+                'absolute bottom-[14%] right-[20%] xl:bottom-[-3%] xl:right-[0%] h-[250px] xl:w-[530px] xl:h-[480px] w-[253px]',
         },
     ],
 };
