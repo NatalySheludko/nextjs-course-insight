@@ -49,7 +49,7 @@ export const CourseSpikersSection = () => {
 
                     <div>
                         <div className="relative">
-                            <div className="absolute inset-[-2px] xl:inset-[-4px] border-[8px] xl:border-[10px] border-(--frame) rounded-[20px] pointer-events-none translate-y-[18px] translate-x-[-4px] h-[191.8px] xl:h-[227px] w-[317px] xl:w-[610px]"></div>
+                            <div className="absolute inset-[-2px] xl:inset-[-4px] border-[10px] border-(--frame) rounded-[20px] pointer-events-none translate-y-[18px] translate-x-[-4px] h-[191.8px] xl:h-[227px] w-[316.5px] xl:w-[610px]"></div>
                             <div className="w-[305px] xl:w-[594px] mt-[18px] xl:mt-[24px] border-[1.5px] border-solid rounded-[16px] p-[71px_29px] backdrop-blur-[44px] bg-(--backgroundLightAlt) mb-[20px] xl:mb-[58px] ">
                                 <h3 className="text-sm xl:text-[28px] leading-[1.2] font-extrabold text-(--frame) mb-[4px] xl:mb-[12px]">
                                     {activeButton}

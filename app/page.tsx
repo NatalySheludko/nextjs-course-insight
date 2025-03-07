@@ -17,8 +17,8 @@ export default function Home() {
             <BeneficiariesSection />
             <CourseSpikersSection />
             <CourseFormatSection />
-            {/*<StudentCasesSection />
-            <CareerCenterSection />
+            <StudentCasesSection />
+            {/*<CareerCenterSection />
             <CourseProgramSection />
             <ExpertCommunitySection />
             <PricingSection />
