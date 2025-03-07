@@ -25,13 +25,13 @@ export const PaginationSection = ({
     const toggleExpand = () => setIsExpanded(prev => !prev);
 
     return (
-        <div className="relative mb-[36px] z-50">
-            <p className="flex justify-center items-center m-auto font-medium text-lg leading-[1.2] text-(--darkGray) border rounded-[28px] bg-(--backgroundLightAlt) border-(--darkGray) w-[466px] h-[30px]">
+        <div className="relative mb-[20px] xl:mb-[36px] z-50">
+            <p className="flex justify-center items-center m-auto font-medium text-xs xl:text-lg leading-[1.2] text-(--darkGray) border rounded-[28px] bg-(--backgroundLightAlt) border-(--darkGray) w-[314px] h-[24px] xl:w-[466px] xl:h-[30px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit
             </p>
             <div
                 className={cn(
-                    'relative m-auto transition-all duration-500 ease-in-out bg-(--darkGray) flex items-center justify-between w-[370px] h-[20px] px-[30px] ',
+                    'relative m-auto transition-all duration-500 ease-in-out bg-(--darkGray) flex items-center justify-between w-[225px] h-[21px] xl:w-[370px] xl:h-[20px] px-[30px] ',
                     {
                         'rounded-b-[20px]': !isExpanded,
                     }
@@ -47,9 +47,9 @@ export const PaginationSection = ({
                     )}
                 />
 
-                <p className="text-xs text-(--white)">{currentSlide + 1}</p>
+                <p className="text-[10px] xl:text-xs text-(--white)">{currentSlide + 1}</p>
 
-                <div className="flex items-center  gap-[45px]">
+                <div className="flex items-center gap-[30px] xl:gap-[45px]">
                     <button onClick={() => changeSlide('prev')} className="cursor-pointer">
                         <Image
                             width={16}
@@ -61,7 +61,7 @@ export const PaginationSection = ({
                     </button>
                     <button
                         onClick={toggleExpand}
-                        className="cursor-pointer text-(--white) text-sm"
+                        className="cursor-pointer text-(--white) text-lg xl:text-sm"
                     >
                         &#43;
                     </button>
@@ -76,7 +76,7 @@ export const PaginationSection = ({
                     </button>
                 </div>
 
-                <p className="text-xs text-(--white)">{totalSlides}</p>
+                <p className="text-[10px] xl:text-xs text-(--white)">{totalSlides}</p>
                 <span
                     className={cn(
                         'absolute top-[25%] right-0 w-[20px] h-[20px] bg-(--backgroundLight) border-none rounded-full transition-all duration-300 ease-in-out',
@@ -89,23 +89,23 @@ export const PaginationSection = ({
             </div>
 
             {isExpanded && (
-                <div className="absolute right-[10.5%]">
+                <div className="absolute xl:right-[10.5%]">
                     {[...Array(8)].map((_, index) => (
                         <div key={index}>
                             {index > 0 && <DecorativeElement />}
 
-                            <div className="bg-(--backgroundLightAlt) border border-(--darkGray) w-[466px] p-[16px_10px] rounded-[16px]">
-                                <h5 className="text-[22px] text-(--darkGray) leading-[1.2] font-bold mb-[8px]">
+                            <div className="bg-(--backgroundLightAlt) border border-(--darkGray) w-[314px] xl:w-[466px] p-[22px_11px] xl:p-[16px_10px] rounded-[16px]">
+                                <h5 className="text-lg xl:text-[22px] text-(--darkGray) leading-[1.2] font-bold mb-[8px]">
                                     Модуль {index + 1}: Фундамент
                                 </h5>
-                                <p className="text-sm font-normal text-(--text) leading-[1.2] mb-[12px]">
+                                <p className="text-[10px] xl:text-sm font-normal text-(--text) leading-[1.2] mb-[12px]">
                                     Открой для себя самую перспективную нишу в криптовалютах, в
                                     которой сможете самостоятельно зарабатывать приличные деньги
                                 </p>
-                                <p className="text-base text-(--darkGray) font-semibold leading-[1.2] mb-[8px]">
+                                <p className="text-[10px] xl:text-base text-(--darkGray) font-semibold leading-[1.2] mb-[10px] xl:mb-[8px]">
                                     Что будем изучать и делать:
                                 </p>
-                                <div className="flex gap-[12px]">
+                                <div className="flex gap-[6px] xl:gap-[12px]">
                                     <Button variant="filled" className="cursor-pointer">
                                         Apps Development
                                     </Button>
@@ -122,7 +122,11 @@ export const PaginationSection = ({
 
                     <DecorativeElement />
 
-                    <Button onClick={toggleExpand} variant="outlined" className="mb-[28px] w-full cursor-pointer">
+                    <Button
+                        onClick={toggleExpand}
+                        variant="outlinedDrop"
+                        className="mb-[28px] cursor-pointer"
+                    >
                         Згорнути
                     </Button>
                 </div>

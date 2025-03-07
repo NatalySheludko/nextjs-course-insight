@@ -31,7 +31,7 @@ export const CareerCenterSection = () => {
                         />
                     ))}
 
-                    <h3 className="hidden xl:font-extrabold xl:text-[28px] xl:leading-[1.2] xl:text-(--white) xl:mb-[12px]">
+                    <h3 className="hidden xl:block xl:font-extrabold xl:text-[28px] xl:leading-[1.2] xl:text-(--white) xl:mb-[12px]">
                         Для взрослых
                     </h3>
                     <p className="m-auto xl:m-0 font-normal text-[10px] xl:text-base leading-[1.2] w-[288px] text-center xl:text-left xl:w-[486px] text-(--lightGray) mb-[255px] xl:mb-[43px]">
