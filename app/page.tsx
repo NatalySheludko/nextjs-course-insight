@@ -16,8 +16,8 @@ export default function Home() {
             <HeroSection />
             <BeneficiariesSection />
             <CourseSpikersSection />
-            {/*<CourseFormatSection />
-            <StudentCasesSection />
+            <CourseFormatSection />
+            {/*<StudentCasesSection />
             <CareerCenterSection />
             <CourseProgramSection />
             <ExpertCommunitySection />
