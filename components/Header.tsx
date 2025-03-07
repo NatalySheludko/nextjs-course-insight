@@ -19,7 +19,7 @@ export const Header = () => {
 
     return (
         <header>
-            <div className="container absolute flex items-center justify-between xl:justify-center z-10">
+            <div className="container absolute top-[20px] left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-between xl:justify-center z-10">
                 <Link href="/" prefetch={false} className="relative top-[12px] flex pl-[20px]">
                     <Image
                         width={12}
