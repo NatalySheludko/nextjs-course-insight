@@ -21,9 +21,9 @@ export default function Home() {
             <CareerCenterSection />
             <CourseProgramSection />
             <ExpertCommunitySection />
-            {/*<PricingSection />
+            <PricingSection />
             <ReviewsSection />
-            <FormSection /> */}
+            <FormSection />
         </main>
     );
 }

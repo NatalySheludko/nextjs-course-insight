@@ -23,7 +23,7 @@ export const Navbar = ({ isMobile = false, closeMenu }: NavbarProps) => {
                 <h1 className="sr-only">Navigation Menu</h1>
             )}
             <ul
-                className={`flex ${
+                className={`flex xl:items-center ${
                     isMobile ? 'flex-col pl-[17px] gap-[40px] pt-[40px]' : 'xl:gap-[40px] pt-[20px]'
                 }`}
             >

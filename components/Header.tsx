@@ -56,13 +56,11 @@ export const Header = () => {
 
             {isOpen && (
                 <div className="">
-                    {/* Бекдроп */}
                     <div
                         className="fixed top-0 left-0 rounded-b-[71px] h-[700px] w-full bg-(--backdrop) md:hidden z-20"
                         onClick={() => setIsOpen(false)}
                     />
 
-                    {/* Кнопка закриття */}
                     <button
                         onClick={() => setIsOpen(false)}
                         className="absolute top-4 right-4 p-1 md:hidden z-20"
