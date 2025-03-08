@@ -106,13 +106,13 @@ export const PaginationSection = ({
                                     Что будем изучать и делать:
                                 </p>
                                 <div className="flex gap-[6px] xl:gap-[12px]">
-                                    <Button variant="filled" className="cursor-pointer">
+                                    <Button variant="fill" className="cursor-pointer">
                                         Apps Development
                                     </Button>
-                                    <Button variant="filled" className="cursor-pointer">
+                                    <Button variant="fill" className="cursor-pointer">
                                         SEO Services
                                     </Button>
-                                    <Button variant="filled" className="cursor-pointer">
+                                    <Button variant="fill" className="cursor-pointer">
                                         Data Analysis
                                     </Button>
                                 </div>
